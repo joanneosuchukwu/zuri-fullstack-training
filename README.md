@@ -1,2 +1,3 @@
 # zuri-fullstack-training
-Fullstack web development training with Zuri
+* Fullstack web development training with Zuri
+* See main
