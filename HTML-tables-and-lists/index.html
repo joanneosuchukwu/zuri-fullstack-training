@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- header tag sandwiching the heading tags which give details of the school, teacher and class -->
+    <!-- note that the Heading element has an id attribute -->
+    <header>
+        <h1 id="school">BENEDICT HIGH SCHOOL</h1>
+        <h2 id="teacher">Teacher: Mr. Ade</h2>
+        <h3 id="SS2">Class: SS2</h3>
+    </header>
+    
+    <!-- insert table here -->
+    <table>
+        <thead>
+            <!-- Additional design: first two rows are used as table headers in order to insert the parent subject column above -->
+            <tr>
+                <th>S/N</th> 
+                <th rowspan="2">Students</th> 
+                <th colspan="5">Subjects</th> 
+                <th rowspan="2" colspan="2">Total Score</th> 
+            </tr>
+
+            <!-- note that each Table row  element has a class attribute. -->
+            <!-- note that the Table Head has a serial number, students, subjects, and total scores as columns.-->
+            <tr class="table-heading"> 
+                <th>S/N</th> 
+                <th>Mathematics</th> 
+                <th>English</th>
+                <th>Physics</th> 
+                <th>Chemistry</th> 
+                <th>Biology</th> 
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr class="adekunle"> 
+                <td>1</td> 
+                <td>Adekunle</td> 
+                <!-- note that each subject score td has a class attibute -->
+                <td class="mathematics">72</td> 
+                <td class="english">43</td> 
+                <td class="physics">78</td> 
+                <td class="chemistry">73</td> 
+                <td class="biology">37</td> 
+                <!-- note that each total score row has a colspan twice the score -->
+                <td colspan="606">303</td >
+            </tr>
+
+            <tr class="john">
+                <td>2</td> 
+                <td>John</td> 
+                <td class="mathematics">42</td> 
+                <td class="english">64</td> 
+                <td class="physics">70</td> 
+                <td class="chemistry">55</td> 
+                <td class="biology">58</td> 
+                <td colspan="578">289</td> 
+            </tr>
+
+            <tr class="peter">
+                <td>3</td>
+                <td>Peter</td> 
+                <td class="mathematics">62</td> 
+                <td class="english">40</td> 
+                <td class="physics">73</td> 
+                <td class="chemistry">75</td> 
+                <td class="biology">99</td> 
+                <td colspan="698">349</td> 
+            </tr>
+
+            <tr class="rukayat">
+                <td>4</td>
+                <td>Rukayat</td> 
+                <td class="mathematics">77</td> 
+                <td class="english">75</td> 
+                <td class="physics">78</td> 
+                <td class="chemistry">75</td> 
+                <td class="biology">82</td> 
+                <td colspan="774">387</td> 
+            </tr>
+
+            <tr class="paul">
+                <td>5</td>
+                <td>Paul</td> 
+                <td class="mathematics">72</td> 
+                <td class="english">40</td> 
+                <td class="physics">72</td> 
+                <td class="chemistry">70</td> 
+                <td class="biology">97</td> 
+                <td colspan="702">351</td> 
+            </tr>
+
+            <tr class="victor">
+                <td>6</td>
+                <td>Victor</td> 
+                <td class="mathematics">76</td> 
+                <td class="english">64</td> 
+                <td class="physics">48</td> 
+                <td class="chemistry">99</td> 
+                <td class="biology">37</td> 
+                <td colspan="648">324</td> 
+            </tr>
+
+            <tr class="john2">
+                <td>7</td>
+                <td>John</td> 
+                <td class="mathematics">62</td> 
+                <td class="english">54</td> 
+                <td class="physics">78</td> 
+                <td class="chemistry">75</td> 
+                <td class="biology">64</td> 
+                <td colspan="666">333</td> 
+            </tr>
+
+            <tr class="doe">
+                <td>8</td>
+                <td>Doe</td> 
+                <td class="mathematics">52</td> 
+                <td class="english">84</td> 
+                <td class="physics">48</td> 
+                <td class="chemistry">85</td> 
+                <td class="biology">27</td> 
+                <td colspan="592">296</td> 
+            </tr>
+
+            <tr class="stephen">
+                <td>9</td>
+                <td>Stephen</td> 
+                <td class="mathematics">92</td> 
+                <td class="english">44</td> 
+                <td class="physics">78</td> 
+                <td class="chemistry">65</td> 
+                <td class="biology">61</td> 
+                <td colspan="680">340</td> 
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

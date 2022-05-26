@@ -1,0 +1,41 @@
+#school {
+    padding: 0;
+    border: 0;
+    margin-right: 10px;
+    color: rgba(12, 11, 11, 0.716);;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#teacher {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    color: rgba(12, 11, 11, 0.716);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#SS2 {
+    padding: 0;
+    border: 0;
+    margin-top: 5px;
+    color: rgba(12, 11, 11, 0.716);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* note that the table has a border attribute with a value of 1, cell padding, and cell spacing with a value of 5.  */
+table, th, td {
+    border: 1px solid rgba(12, 11, 11, 0.716);;
+    padding: 5px;
+    border-spacing: 5px;
+}
+
+
+
+.adekunle, .peter, .paul, .john2, .stephen {
+    background-color: #E6E9EB;
+}
+
+
+.mathematics, .english, .physics, .chemistry, .biology {
+    color: black;
+}
