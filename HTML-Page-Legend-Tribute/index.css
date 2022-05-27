@@ -1,0 +1,40 @@
+header {
+    text-align: center;
+    background-color: darkolivegreen;
+    color: white;
+    height: 100px;
+    margin: 0;
+    padding: 20px;
+}
+
+figure {
+    position: relative;
+    left: 350px;
+    top: -80px;
+}
+
+.description {
+    height: 200px;
+    width: 350px;
+    position: relative;
+    left: 730px;
+    top: 160px;
+}
+
+p {
+
+}
+
+.notable {
+    width: 820px;
+    position: relative;
+    left: 300px;
+    top: -20px;
+}
+
+footer {
+    background-color: darkolivegreen;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
