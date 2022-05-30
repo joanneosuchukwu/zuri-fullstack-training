@@ -12,13 +12,20 @@ More information on Rock, Paper, Scissors and how to play it can be found <a hre
   ```player_choice = player_choice.upper()```
  
 
-* The letter input, "R", "P", or "S", is then replaced with the game keywords, "Rock", "Paper", or "Scissors"     
-  ```if player_choice == 'R':```     
+* The letter input, "R", "P", or "S", is then replaced with the game keywords, "Rock", "Paper", or "Scissors"    
+     
+```if player_choice == 'R':```  
+    
     ```player_choice = player_choice.replace('R', 'Rock')```  
-  ```if player_choice == 'P':```  
+
+```if player_choice == 'P':```    
+    
     ```player_choice = player_choice.replace('P', 'Paper')```  
-  ```if player_choice == 'S':```  
-    ```player_choice = player_choice.replace('S', 'Scissors')```
+    
+```if player_choice == 'S':```  
+
+    ```player_choice = player_choice.replace('S', 'Scissors')```  
+    
 * This is compared with the created **list of possible options within the program**.
 ```lst = ['Rock', 'Paper', 'Scissors']```
 
