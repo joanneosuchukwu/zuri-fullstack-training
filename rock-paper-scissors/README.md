@@ -112,9 +112,8 @@ More information on Rock, Paper, Scissors and how to play it can be found <a hre
           
 
 
-### Joanne Osuchukwu  
+Joanne Osuchukwu  
+Zuri Fullstack Training  
+Student ID: I4G000936QEB  
 
-**Zuri Fullstack Training**  
-
-***Student ID: I4G000936QEB***  
 
