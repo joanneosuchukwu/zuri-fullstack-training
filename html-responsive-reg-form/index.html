@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reg form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>Learn to code by watching others</h1>
+        <p>
+            See how experienced developers solve problems in real-time.
+            Watching scripted tutorials is great, but understanding how 
+            developers think is invaluable.
+        </p>
+    </main>
+    <aside class="logincontainer">
+        <button class="try">
+            <strong>Try it free 7 days </strong> then $20/mo. thereafter
+        </button>
+        <form name = "loginform" action="" method="post" autocomplete="off" class="loginform">
+            <!-- <p class="success register-success"></p> -->
+
+            <div class="input">
+                <input type="text" name = "firstame" id="firstname" placeholder="First Name" required class="firstname">
+                <p class="error firstname-error"></p>
+            </div>
+
+            <div class="input">
+                <input type="text" name = "lastname" id="lastname" placeholder="Last Name" required class="lastname">
+                <!-- <p class="error lastname-error"></p> -->
+            </div>
+
+            <div class="input">
+                <input type="email" name = "email" id="email" placeholder="Email Address" required class="email"> 
+                <!-- <p class="error email-error"></p> -->
+            </div>
+
+            <div class="input">
+                <input type="password" name = "password" id="password" placeholder="Password" required class="password">
+                <!-- <p class="error password-error"></p> -->
+            </div>
+            
+            <div>
+                <button type="submit" class="claim">CLAIM YOUR FREE TRIAL</button>
+            </div>
+
+            <div>
+                <p>By clicking the button, you are agreeing to our <a href="#"><b>Terms and Services</b></a></p>
+            </div>
+
+            <p class="error register-error"></p>
+        </form>
+    </aside>
+
+    <script src="script.js"></script>
+</body>
+</body>
+</html>

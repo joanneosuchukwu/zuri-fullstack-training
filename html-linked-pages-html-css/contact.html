@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joanne Osuchukwu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url('./zoe-BVoTTLwXvMQ-unsplash.jpg'); background-size: 1600px 1100px;">
+    <header>
+        <div class="container">
+            <figure>
+                <img src="./programming.png" alt="Logo" width="50" height="50" class = "logo">
+                <h1>CONTACT PAGE</h1>
+            </figure>
+            
+            <nav>
+                <ul>
+                    <li><a href="./about.html">Home Page</a></li>
+                    <li><a href="./contact.html">Contact Page</a></li>
+                    <li><a href="./registration.html">Registration Page</a></li>
+                    <li><a href="./login.html">Login Page</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+
+
+    <main class="logincontainer">
+        <form action="results.html" method="GET" class="loginform">
+            <h1 style="color:#222;">Contact Me</h1>
+            <div class="flex-input">
+                <label for="firstname">First Name</label>
+                <input type="text" name = "firstame" id="firstname" placeholder="Enter first name" required class="logininput">
+            </div>
+            
+            <div class="flex-input">
+                <label for="lastname">Last Name</label>
+                <input type="text" name = "lastname" id="lastname" placeholder="Enter last name" required class="logininput">
+            </div>
+            
+            <div class="flex-input">
+                <label for="message">Message</label>
+                <input type="text" name = "message" id="message" placeholder="Leave a message..." required class="logininput">
+            </div>
+            
+            <div class="buttons">
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+
+    </main>
+
+    <footer>
+        <div>
+            &COPY; 2022
+        </div>
+    </footer>
+</body>
+
+
+    <style>
+        .buttons {
+            display: inline-flex;
+            margin-left: 114px;
+        }
+    
+        .logincontainer {
+            display: flex;
+            justify-content: center;
+            height: 400px;
+            align-items: center;
+        }   
+    
+        .loginform {
+            background-color: rgb(229, 245, 240, 0.7);
+            padding: 10px;
+            width: 400px;
+        }
+    
+        .flex-input {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 10px;
+        }
+    
+        .logininput {
+            padding: 10px;
+            font-size: 18px;
+        }
+    
+        label {
+            flex-basis: 130px;
+            margin-top: 10px;
+            color: #222;
+        }
+    
+        button {
+            width: 100%;
+            font-size: 20px;
+            padding: 10px;
+            background: #222;
+            color: white;
+            border: none;
+            margin: 20px 20px;
+            
+        }
+    
+        button:hover {
+            cursor: pointer;
+            background-color:rgba(43, 56, 52, 0.7);
+        }
+
+        footer {
+        position: relative;
+        height: 50px;
+        margin-top: 250px;
+        clear: both;
+    }
+
+    footer div {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+        color: #e5f5f0;
+    }
+    
+    
+    </style>
+
+
+
+
+</body>
+</html>
